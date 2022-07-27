@@ -1,7 +1,13 @@
+#nav-bar {
+  position: fixed;
+  display: inline;
+  top: 0%;
+  float: right;
+}
+
 #nav-bar ul li{
   list-style: none;
   float: right;
-  display: inline;
   margin-right: 25px;
 }
 
@@ -12,17 +18,15 @@
 
 #header-img{
   float: left;
-  width: 100%;
+  width: 300px;
   height: 100%;
-  max-width: 300px;
 }
 
-@media (min-width = 500px) {
-  #header{
-    overflow: hidden;
-    margin-bottom: 30px;
-    position: fixed;
-    width: 100%;
+@media screen, print {
+  .nav-link{
     display: flex;
   }
 }
+.nav-link{
+    display: flex;
+  }
