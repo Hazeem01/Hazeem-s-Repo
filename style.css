@@ -1,8 +1,6 @@
 #nav-bar {
-  position: fixed;
   display: inline;
   top: 0%;
-  float: right;
 }
 
 #nav-bar ul li{
@@ -14,6 +12,7 @@
 #nav-bar ul li a{
   text-decoration: none;
   color: black;
+  
 }
 
 #header-img{
@@ -30,3 +29,11 @@
 .nav-link{
     display: flex;
   }
+#video {
+  margin-top: 40px;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+}
